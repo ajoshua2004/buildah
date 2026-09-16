@@ -40,7 +40,10 @@ will be assigned to someone, to be worked on at a later time.  If you have the
 time to work on the issue now, add yourself as an assignee, and set the
 "In Progress" label if you’re a member of the “Containers” GitHub organization.
 If you can not set the label, just  add a quick comment in the issue asking that
-the “In Progress” label be set and a member will do so for you.
+the “In Progress” label be set and a member will do so for you. If any changes
+are required in `vendor/` please do not directly edit the files. Instead open
+a PR against the appropriate repository (e.g. [container-libs](https://github.com/podman-container-tools/container-libs))
+and update the vendor.
 
 ## Submitting Pull Requests
 
